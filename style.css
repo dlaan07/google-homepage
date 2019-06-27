@@ -1,0 +1,126 @@
+body{
+	background-color: #fff;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+body, td, a, p, .h{
+	font-family: "Arial", sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+header{
+	width: 100%;
+}
+header ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+header ul li{
+	display: inline-block;
+	margin: 0 10px;
+	font-size: small;
+}
+header ul li a{
+	color: rgba(0,0,0,0.87);
+}
+#signin{
+	background-color: #4285f4;
+	border: 0;
+	border-radius: 2px;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px 12px;
+}
+#signin:hover{
+	box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+
+main{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+main .search-container{
+	position: relative;
+}
+main .search-container input{
+	padding: 14px;
+	border: 1px solid #d5d5d5;
+	border-radius: 24px;
+	width: 40vw;
+	margin: 25px 0;
+}
+main .search-container input:hover, main .search-container input:focus{
+	border: 1px solid rgba(0,0,0,0);
+	box-shadow: 0 1px 6px 0 rgba(32,32,32,0.2);
+}
+main .search-container input:focus{
+	outline:none;
+}
+main .search-container button{
+	background-color: rgba(0,0,0,0);
+	border: 0;
+	position: absolute;
+	top: 24px;
+	right: 0;
+	cursor: pointer;
+	transform: scale(0.5);
+}
+main .buttons button{
+	border: 0;
+	background-color: #f5f5f5;
+	font-size: 14px;
+	color: #555;
+	margin: 5px;
+	padding: 10px 16px 10px 16px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+main p{
+	font-size: 0.8em;
+	color: rgba(0,0,0,0.87);
+}
+
+footer{
+	color: rgba(0,0,0,0.52);
+	font-size: small;
+}
+
+footer div{
+	background-color: #f2f2f2;
+	border-top: 1px solid #e5e5e5;
+	padding: 15px 30px 15px 0px;
+}
+footer p{
+	margin: 0;
+	padding-left: 30px;
+}
+footer #misc{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+footer #misc li{
+	padding-left: 30px;
+	display: inline-block;
+}
+footer #misc li a{
+	color: rgba(0,0,0,0.52);
+}
